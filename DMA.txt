@@ -1,0 +1,11 @@
+upis iz memorije (RAM) u memoriju (HDD SDD npr) bez ucesca CPUa 
+When the DMA controller is configured to read or write one 32-bit word "every cycle," it means that for each clock cycle,
+ the DMA controller will perform one operation, either reading or writing 32 bits of data to or from memory or a peripheral.
+Yes, a clock cycle is typically defined as the time between two consecutive rising edges
+
+•
+Memory to memory transfers (internal to external).
+Transfers from I/O devices to memory.
+Transfers from memory to I/O devices.
+Transfers from/to communications ports and memory.
+Transfers from/to serial ports and memory.
