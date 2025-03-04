@@ -1,0 +1,31 @@
+Linux Programming:
+
+What is the role of a kernel in Linux? How does it interact with hardware?
+Describe the process of writing a Linux driver. What are the key components involved?
+Explain how system calls work in Linux.
+What are the differences between user space and kernel space? How would you handle communication between the two?
+How does multi-threading work in Linux? How do you handle thread synchronization?
+What is the difference between a process and a thread in Linux?
+
+1. Kernel in Linux & Hardware Interaction
+The kernel is the core part of Linux that manages system resources (memory, CPU, I/O). It interacts with hardware through device drivers, controlling devices and abstracting hardware details from user applications.
+
+2. Writing a Linux Driver
+A Linux driver allows the kernel to communicate with hardware. Key components include:
+
+Initialization function to set up the device.
+File operations to handle I/O operations.
+Interrupt handling for hardware events.
+Cleanup function for resource deallocation.
+3. System Calls in Linux
+System calls allow user applications to request services from the kernel (e.g., file operations). They switch the CPU from user mode to kernel mode to execute privileged operations.
+
+4. User Space vs Kernel Space & Communication
+User space runs applications and doesn't have direct access to hardware.
+Kernel space handles system operations with full hardware access. Communication happens via system calls, IOCTL, shared memory, and signals.
+5. Multi-threading & Synchronization
+Linux supports multi-threading using pthreads. Synchronization is done using mutexes, semaphores, and condition variables to prevent race conditions.
+
+6. Process vs Thread
+Process: Independent with its own memory space, slower context switching.
+Thread: Lightweight, shares memory with other threads in the same process, faster context switching.
