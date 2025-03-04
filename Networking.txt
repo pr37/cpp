@@ -1,0 +1,82 @@
+Topologija-Bus/Star/Ring/Mesh/Tree/Hybrid
+
+ISO OSI
+
+TCP 
+
+IP 
+
+UDP 
+
+HTTP 
+
+SSL/TLS 
+
+ARP / RARP 
+
+DHCP
+
+FTP 
+
+SMTP
+
+
+Ruter/switch/Hub/Bridge/Wifi Ruter/Wifi brigde
+
+
+IP/MAC address/ hostname/ ipconfig / Port / Socket
+URL/URI 
+
+Packet sniffers - wireshark
+
+Subnet mask 
+
+NAT Network Address Translation
+
+DNS 
+
+Simplex/Half Duplex/Full Duplex
+
+Broadband/Baseband
+
+Mancherster Encoding
+
+
+Firewall/Access control/Intrusion Detection System IDS 
+
+Enkripcija i algoritmi
+
+
+Virtuelne mreze
+
+
+LAN/WAN/Cloud/Intranet
+
+
+Client-server/Peer2Peer/Torrents
+
+IP Routing involves determining the path that data packets take from the source to the
+ destination through a network. This is done using routing tables, which store information 
+ about various routes.
+
+Static Routing: In static routing, routes are manually configured and do not change unless
+ manually updated. The router will always follow the same predefined route, making it simple
+  but less flexible and scalable for dynamic network conditions.
+
+Example: A static route might be configured like this:
+
+ip route 192.168.1.0 255.255.255.0 192.168.0.1
+This means traffic destined for the 192.168.1.0 network is always forwarded through the gateway
+ at 192.168.0.1.
+
+Dynamic Routing: Dynamic routing allows routers to automatically learn and adjust routes
+ based on network conditions (e.g., changes in topology, link failure). This is typically
+  done using routing protocols like OSPF (Open Shortest Path First), 
+  RIP (Routing Information Protocol), or BGP (Border Gateway Protocol).
+   Routers communicate with each other to share information and update their routing tables
+    dynamically.
+
+ARP (Address Resolution Protocol) is used to map an IP address to a MAC address in a local area network (LAN). 
+
+
+
